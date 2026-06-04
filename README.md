@@ -89,6 +89,7 @@ python3 scripts/plot_metrics.py
 ### The 80/20 High Locality Workload
 
 When simulating a real-world database or gaming application (where 80% of accesses hit a concentrated 20% of memory), the benchmark mathematically proves why OS kernels abandon FIFO. LRU and Clock trace closely to the Optimal theoretical baseline, successfully exploiting temporal locality.
+<img width="3000" height="1800" alt="Graph_3_High_Locality" src="https://github.com/user-attachments/assets/de426f5e-230e-44e0-a5cb-a221f24671ed" />
 
 ### Catching Belady's Anomaly
 
