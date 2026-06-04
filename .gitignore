@@ -1,0 +1,12 @@
+# .gitignore
+
+# Ignore compiled C++ binaries
+engine
+benchmark
+belady_detector
+
+# Ignore heavy CSV data files
+data/*.csv
+
+# Ignore macOS system files (if you are on a Mac)
+.DS_Store
